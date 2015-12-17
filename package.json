@@ -1,0 +1,48 @@
+{
+  "name": "pure-render",
+  "version": "1.0.0",
+  "description": "pure-render higher-order function",
+  "main": "lib/index.js",
+  "files": [
+    "package.json",
+    "README.md",
+    "lib/index.js"
+  ],
+  "scripts": {
+    "start": "babel src --out-dir lib --ignore='__tests__'",
+    "test": "babel-node ./scripts/webpack/test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/bloodyowl/pure-render.git"
+  },
+  "keywords": [
+    "react",
+    "pure-render",
+    "should-component-update"
+  ],
+  "author": "bloodyowl",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bloodyowl/pure-render/issues"
+  },
+  "homepage": "https://github.com/bloodyowl/pure-render#readme",
+  "dependencies": {
+    "fbjs": "^0.5.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.3.17",
+    "babel-loader": "^6.2.0",
+    "babel-polyfill": "^6.3.14",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "react": "^0.14.3",
+    "react-addons-test-utils": "^0.14.3",
+    "react-dom": "^0.14.3",
+    "tape": "^4.2.2",
+    "tape-catch": "^1.0.4",
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.0",
+    "webpack-jsdom-tape-plugin": "^1.2.0"
+  }
+}
