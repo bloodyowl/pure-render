@@ -1,12 +1,12 @@
 {
   "name": "pure-render",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "pure-render higher-order function",
-  "main": "lib/index.js",
+  "main": "./lib/index.js",
   "files": [
     "package.json",
     "README.md",
-    "lib/index.js"
+    "lib"
   ],
   "scripts": {
     "start": "babel src --out-dir lib --ignore='__tests__'",
